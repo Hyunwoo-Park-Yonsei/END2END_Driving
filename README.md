@@ -22,12 +22,24 @@
 
 ![ex_screenshot2](./img/2.png)
 
-### Streming the data with laptop and Raspberry Pi
+### Streaming the data with laptop and Raspberry Pi
 
 * I've tried to use the model to decide direction but the model was too heavy for Pi to run it.
 * So I decided to receive the camera image from the Pi to my laptop and run the model in my laptop then send the decision to the Pi.
 * It has reduced the decision making time 1/10 from 0.3s to 0.03s.
 
+## Limitations
+* I have reduced the decision making time by 0.03s but it wasn't enough since communication delay happened time to time.
+* The car and the laptop should be nearby since I've decided to stream the data with laptop and Raspberry Pi.
+* The car didn't had the steering system. So I had to control the car by spinning both wheel opposite direction.
+* which made the motion of car simple but inefficient.
+
+
+## What I've learned
+* I've learned how the deep learning works, and how to apply deep learning in embedded system.
+* I've got used to Python, embedded system.
+* Honestly <span style="color:red">**I didn't know there was a thing called END-TO-END**</span> driving until I finished this project.
+* So I didn't used any references during the project, which made me learn to implement the idea in my head.
 
 
 
