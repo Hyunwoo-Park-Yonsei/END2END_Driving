@@ -22,7 +22,7 @@
 
 ![ex_screenshot2](./img/2.png)
 
-### Streming the data to the raspberry pi
+### Streming the data with laptop and Raspberry Pi
 
 * I've tried to use the model to decide direction but the model was too heavy for Pi to run it.
 * So I decided to receive the camera image from the Pi to my laptop and run the model in my laptop then send the decision to the Pi.
