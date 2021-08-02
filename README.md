@@ -39,7 +39,7 @@
 * I've learned how the deep learning works, and how to apply deep learning in embedded system.
 * I've got used to Python, embedded system.
 * Honestly <span style="color:red">**I didn't know there was a thing called END-TO-END**</span> driving until I finished this project.
-* So I didn't used any references during the project, which made me learn to implement the idea in my head.
+* So I didn't used any references during the project, which made me learn how to implement the idea in my head.
 
 
 
