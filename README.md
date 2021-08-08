@@ -24,7 +24,7 @@
 
 ### Streaming the data with laptop and Raspberry Pi
 
-* I've tried to use the model to decide direction but the model was too heavy for Pi to run it.
+* At first, I've tried to make the mini-car to decide direction but the trained-model was too heavy for Pi to run it.
 * So I decided to receive the camera image from the Pi to my laptop and run the model in my laptop then send the decision to the Pi.
 * It has reduced the decision making time 1/10 from 0.3s to 0.03s.
 
