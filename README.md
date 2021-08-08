@@ -26,7 +26,7 @@
 
 * At first, I've tried to make the mini-car to decide direction but the trained-model was too heavy for Pi to run it.
 * So I decided to receive the camera image from the Pi to my laptop and run the model in my laptop then send the decision to the Pi.
-* It has reduced the decision making time 1/10 from 0.3s to 0.03s.
+* It has reduced the decision making time 90% from 0.3s to 0.03s.
 
 ## Limitations
 * I have reduced the decision making time by 0.03s but it wasn't enough since communication delay happened time to time.
